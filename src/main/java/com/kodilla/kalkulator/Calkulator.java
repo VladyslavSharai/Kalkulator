@@ -1,14 +1,20 @@
 package com.kodilla.kalkulator;
 
 public class Calkulator {
-    public void someMethod() {
-        System.out.println("It works!");
+
+    public void addingNumbers(){
+        System.out.println("a + b");
+    }
+
+    public void subtractingNumbers(){
+        System.out.println("a - b");
     }
 
     public static void main(String[] args) {
         Calkulator myCalkulator = new Calkulator();
 
-        myCalkulator.someMethod();
+        myCalkulator.addingNumbers();
+        myCalkulator.subtractingNumbers();
 
     }
 
